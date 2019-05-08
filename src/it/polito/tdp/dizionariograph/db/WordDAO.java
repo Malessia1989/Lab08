@@ -7,6 +7,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.graph.SimpleGraph;
+
+import it.polito.tdp.dizionariograph.model.Parola;
+
 public class WordDAO {
 
 	/*
@@ -34,5 +39,7 @@ public class WordDAO {
 			throw new RuntimeException("Error Connection Database");
 		}
 	}
+
+
 
 }
